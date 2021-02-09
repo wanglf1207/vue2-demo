@@ -1,6 +1,8 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+// 入口文件，引入vue框架中的Vue构造函数
 import Vue from 'vue'
+// 引入根组件
 import App from './App'
 import router from './router'
 

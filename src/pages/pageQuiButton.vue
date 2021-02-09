@@ -1,7 +1,7 @@
 <template>
   <div id="pageQuiButton">
     <!--使用-->
-    <qui-btn msg="确定" class="small"></qui-btn>
+    <qui-btn msg="you can click me" class="small" v-on="click"></qui-btn>
   </div>
 </template>
 <script>
