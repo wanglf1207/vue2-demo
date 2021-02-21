@@ -5,6 +5,9 @@
         <p class="img-item">
           <a class="page-link" href="#/btn">按钮</a>
         </p>
+        <p class="img-item">
+          <a class="page-link" href="#/counter">计数器</a>
+        </p>
       </div>
       <div class="img-box">
         <p class="img-item">

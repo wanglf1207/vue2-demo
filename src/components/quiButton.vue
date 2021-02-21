@@ -13,8 +13,9 @@
       }
     },
     methods: {
-      btnClickEvent: function() {
-        alert(this.msg);
+      btnClickEvent: function(){
+        alert("先弹出默认的文案");
+        this.$emit('btnClickEvent');//父组件触发自定义事件
       }
     }
   }

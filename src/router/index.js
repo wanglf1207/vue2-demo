@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import index from '../pages/index.vue'
 import pageQuiButtion from '../pages/pageQuiButton'
+import Counter from '../pages/Counter'
 import pageQuiList from '../pages/pageQuiList'
 import pageQuiNav from '../pages/pageQuiNav'
 
@@ -20,6 +21,11 @@ export default new Router({
       path: '/btn',
       name: 'btn',
       component: pageQuiButtion
+    },
+    {
+      path: '/counter',
+      name: 'counter',
+      component: Counter
     },
     {
       path: '/list',
